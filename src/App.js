@@ -6,7 +6,7 @@ import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed } from './componen
 
 const App = () => {
   return (
-      <BrowserRouter basename='/reactYoutubeClone'>
+      <BrowserRouter>
         <Box sx={{ backgroundColor: '#000' }}>
           <Navbar />
           <Routes>
